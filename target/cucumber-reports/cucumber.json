@@ -1,0 +1,399 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 100311298,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser and navigate to home page",
+            "match": {
+              "location": "HomeTests.user_open_the_browser_and_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T10:43:42.699Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15922277292,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.before()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify the right count of values are displayed on Home page",
+        "description": "",
+        "id": "exercise1-home-page-verification;verify-the-right-count-of-values-are-displayed-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2204452882,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109889474,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check the text for each value is diplayed on home page",
+            "match": {
+              "location": "HomeTests.check_the_text_for_each_value_is_diplayed_on_home_page(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "label",
+                  "textValues"
+                ]
+              },
+              {
+                "cells": [
+                  "Value1",
+                  "$122,365.24"
+                ]
+              },
+              {
+                "cells": [
+                  "Value2",
+                  "$599.00"
+                ]
+              },
+              {
+                "cells": [
+                  "Value3",
+                  "$850,139.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Value4",
+                  "$23,329.50"
+                ]
+              },
+              {
+                "cells": [
+                  "Value5",
+                  "$566.27"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6109826,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser and navigate to home page",
+            "match": {
+              "location": "HomeTests.user_open_the_browser_and_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T10:44:01.138Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15458112663,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.before()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify values are greater on 0",
+        "description": "",
+        "id": "exercise1-home-page-verification;verify-values-are-greater-on-0",
+        "after": [
+          {
+            "result": {
+              "duration": 10660737398,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 896364388,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "check each value displayed on screen are greater than 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 54
+                }
+              ],
+              "location": "HomeTests.check_each_value_displayed_on_screen_are_greater_than(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8366798,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser and navigate to home page",
+            "match": {
+              "location": "HomeTests.user_open_the_browser_and_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T10:44:28.175Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23451537080,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify total balance is correct",
+        "description": "",
+        "id": "exercise1-home-page-verification;verify-total-balance-is-correct",
+        "after": [
+          {
+            "result": {
+              "duration": 2168420539,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7652774,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "check total balance is \"$1,000,000.00\" as per the value displayed on home page screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$1,000,000.00\"",
+                  "offset": 23
+                }
+              ],
+              "location": "HomeTests.check_total_balance_is_as_per_the_value_displayed_on_home_page_screen(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10568782,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser and navigate to home page",
+            "match": {
+              "location": "HomeTests.user_open_the_browser_and_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T10:44:53.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11550946820,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.before()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify values are formatted as currency",
+        "description": "",
+        "id": "exercise1-home-page-verification;verify-values-are-formatted-as-currency",
+        "after": [
+          {
+            "result": {
+              "duration": 1794146976,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 294793701,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "check each value on page are in \"$\" currency format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$\"",
+                  "offset": 32
+                }
+              ],
+              "location": "HomeTests.check_each_value_on_page_are_in_currency_format(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3481891,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser and navigate to home page",
+            "match": {
+              "location": "HomeTests.user_open_the_browser_and_navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T10:45:07.493Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10791066004,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.before()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify total balance is equal to sum of all values",
+        "description": "",
+        "id": "exercise1-home-page-verification;verify-total-balance-is-equal-to-sum-of-all-values",
+        "after": [
+          {
+            "result": {
+              "duration": 1590809038,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeTests.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 342701406,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "check total balance is equal to sum of all values on home page",
+            "match": {
+              "location": "HomeTests.check_total_balance_is_equal_to_sum_of_all_values_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exercise1 Home Page Verification",
+    "description": "",
+    "id": "exercise1-home-page-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TestRequirement.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,6 @@
+com\automation\steps\TestRunner.class
+com\automation\pageObjects\HomePage.class
+com\automation\steps\ItemDetails.class
+com\automation\utilities\BasePage.class
+com\automation\steps\HomeTests.class
+com\automation\utilities\ConstantValues.class

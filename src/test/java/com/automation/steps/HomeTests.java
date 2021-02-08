@@ -16,7 +16,7 @@ import io.cucumber.java.en.Then;
 
 public class HomeTests extends BasePage {
 
-	HomePage homePage = new HomePage(driver);
+	HomePage homePage;
 
 	@Before
 	public void before() {
@@ -26,6 +26,7 @@ public class HomeTests extends BasePage {
 	@Given("User open the browser and navigate to home page")
 	public void user_open_the_browser_and_navigate_to_home_page() {
 		homePage = new HomePage(driver);
+		homePage.getTitle();
 	}
 	
 	@Then("check the text for each value is diplayed on home page")

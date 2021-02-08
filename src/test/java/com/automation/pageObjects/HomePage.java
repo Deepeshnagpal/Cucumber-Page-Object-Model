@@ -111,12 +111,16 @@ public class HomePage extends BasePage {
 
 	public void checkTotalBalance(String totalBalance) {
 		try {
-			if(totalBalance.equals(txt_ttl_value))
+			if(totalBalance.equals(txt_ttl_value.getText()))
 				Assert.assertTrue(true);
 			else
 				Assert.assertFalse(false);
 		} catch (Exception e) {
 			// nothing to do here
 		}
+	}
+	
+	public String getTitle() {
+		return driver.getTitle();
 	}
 }
